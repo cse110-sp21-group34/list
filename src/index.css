@@ -11,6 +11,11 @@
     &--unordered {
         list-style: disc;
     }
+    
+    &--unordered2 {
+        list-style: square;
+    }
+    
 
     &--ordered {
         list-style: circle;
