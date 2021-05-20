@@ -267,7 +267,6 @@ class List {
    * @returns {HTMLOListElement|HTMLUListElement}
    */
   makeMainTag(style){
-    var styleClass;
     if (style === "unordered") {
       styleClass= this.CSS.wrapperUnordered;
     } else if (style === "unordered2") {
@@ -277,7 +276,7 @@ class List {
     }
     const tag = style === 'ordered' ? 'ol' : 'ul';
 
-    return this._make(tag, [this.CSS.baseBlock, this.CSS.wrapper, this.CSS.wrapperUnordered2], {
+    return this._make(tag, [this.CSS.baseBlock, this.CSS.wrapper, styleClass], {
       contentEditable: !this.readOnly,
     });
   }
