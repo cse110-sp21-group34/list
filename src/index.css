@@ -9,7 +9,7 @@
     }
 
     &--unordered {
-        list-style: square;
+        list-style: disc;
     }
     
     &--important {
