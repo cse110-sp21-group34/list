@@ -9,15 +9,24 @@
     }
 
     &--unordered {
-        list-style: disc;
-    }
-    
-    &--unordered2 {
         list-style: square;
     }
     
+    &--important {
+        list-style: "\26A0";
+    }
+
+    &--thumbUp {
+        list-style: "\1F44D";
+    }
+
+    &--thumbDown {
+        list-style: "\1F44E";
+    }
+    
+    
     &--ordered {
-        list-style: circle;
+        list-style: decimal;
     }
 
     &-settings {
