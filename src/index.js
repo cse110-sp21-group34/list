@@ -277,7 +277,7 @@ class List {
     }
     const tag = style === 'ordered' ? 'ol' : 'ul';
 
-    return this._make(tag, [this.CSS.baseBlock, this.CSS.wrapper, styleClass], {
+    return this._make(tag, [this.CSS.baseBlock, this.CSS.wrapper, this.CSS.wrapperUnordered2], {
       contentEditable: !this.readOnly,
     });
   }
