@@ -267,7 +267,7 @@ class List {
    * @returns {HTMLOListElement|HTMLUListElement}
    */
   makeMainTag(style){
-    const styleClass;
+    var styleClass;
     if (style === "unordered") {
       styleClass= this.CSS.wrapperUnordered;
     } else if (style === "unordered2") {
