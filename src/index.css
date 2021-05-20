@@ -16,7 +16,6 @@
         list-style: square;
     }
     
-
     &--ordered {
         list-style: circle;
     }

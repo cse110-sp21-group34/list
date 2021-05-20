@@ -267,12 +267,13 @@ class List {
    * @returns {HTMLOListElement|HTMLUListElement}
    */
   makeMainTag(style){
+    const styleClass;
     if (style === "unordered") {
-      const styleClass = this.CSS.wrapperUnordered;
+      styleClass= this.CSS.wrapperUnordered;
     } else if (style === "unordered2") {
-      const styleClass = this.CSS.wrapperUnordered2;
+      styleClass = this.CSS.wrapperUnordered2;
     } else {
-      const styleClass = this.CSS.wrapperOrdered;
+      styleClass = this.CSS.wrapperOrdered;
     }
     const tag = style === 'ordered' ? 'ol' : 'ul';
 
